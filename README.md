@@ -6,18 +6,18 @@ A lightweight ASP.NET Core Web API for storing and managing “problem questions
 
 This API allows a frontend application to:
 
-✅ Add a question to a “problem list”
-📥 Retrieve all problem questions
-❌ Remove a specific question
-🧹 Clear all problem questions
+- ✅ Add a question to a “problem list”
+- 📥 Retrieve all problem questions
+- ❌ Remove a specific question
+- 🧹 Clear all problem questions
 
 Data is persisted using a database via Entity Framework Core.
 
 ## Tech Stack
 
-ASP.NET Core Web API
-Entity Framework Core
-SQLite (or configurable DB via AppDbContext)
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQLite (or configurable DB via AppDbContext)
 
 ## Base Route
 
@@ -70,8 +70,8 @@ Removes a single question from the database.
 
 ### Response
 
-`204 No Content` → successfully deleted
-`404 Not Found` → question does not exist
+- `204 No Content` → successfully deleted
+- `404 Not Found` → question does not exist
 
 ### Clear all problem questions
 
